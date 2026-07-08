@@ -1,0 +1,26 @@
+{
+    "symbol": "XRP",
+    "model_name": "xrp_xgb-lstm_30",
+    "model_type": "xgb-lstm",
+    "horizon": 30,
+    "model_path": "d:\\forecast_service\\models\\xrp_xgb-lstm_30",
+    "scaler_path": "d:\\forecast_service\\models\\xrp_xgb-lstm_30\\scaler.pkl",
+    "xgb_path": "d:\\forecast_service\\models\\xrp_xgb-lstm_30\\xgb_model.pkl",
+    "lstm_path": "d:\\forecast_service\\models\\xrp_xgb-lstm_30\\lstm_model.keras",
+    "tcn_path": null,
+    "lags": 20,
+    "lookback": 20,
+    "feature_cols": [
+        "volume",
+        "active_addresses",
+        "tx_count"
+    ],
+    "xgb_weight": 0.7,
+    "lstm_weight": 0.3,
+    "tcn_weight": null,
+    "test_mape": 18.729555356918993,
+    "test_mae": 0.3808591881504726,
+    "n_samples": 355,
+    "created_at": "2026-05-22 10:20:56.079207",
+    "is_active": 1
+}

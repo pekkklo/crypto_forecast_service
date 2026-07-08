@@ -1,0 +1,26 @@
+{
+    "symbol": "LTC",
+    "model_name": "ltc_xgb-lstm_180",
+    "model_type": "xgb-lstm",
+    "horizon": 180,
+    "model_path": "d:\\forecast_service\\models\\ltc_xgb-lstm_180",
+    "scaler_path": "d:\\forecast_service\\models\\ltc_xgb-lstm_180\\scaler.pkl",
+    "xgb_path": "d:\\forecast_service\\models\\ltc_xgb-lstm_180\\xgb_model.pkl",
+    "lstm_path": "d:\\forecast_service\\models\\ltc_xgb-lstm_180\\lstm_model.keras",
+    "tcn_path": null,
+    "lags": 20,
+    "lookback": 20,
+    "feature_cols": [
+        "volume",
+        "active_addresses",
+        "tx_count"
+    ],
+    "xgb_weight": 0.6,
+    "lstm_weight": 0.4,
+    "tcn_weight": null,
+    "test_mape": 17.476793596737412,
+    "test_mae": 16.460370678996874,
+    "n_samples": 325,
+    "created_at": "2026-05-22 10:20:55.711479",
+    "is_active": 1
+}
