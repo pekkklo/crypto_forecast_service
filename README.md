@@ -177,10 +177,10 @@ forecast_service/
 
 ### Главная страница
 
-> (image/main.png)
+![Главная страница](image/main.png)
 
 ### История прогнозов
 
-> (image/story1.png)
+![История прогнозов](image/story1.png)
 
 ---
